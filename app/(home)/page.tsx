@@ -74,7 +74,7 @@ export default function HomePage() {
       </div>
 
       {/* CARD TO SHOW ACTIVITY */}
-      <Card className="mt-6 max-h-screen h-[calc(100vh/1.5)] overflow-hidden">
+      <Card className="mt-6 h-full overflow-y-auto">
         <CardHeader className="flex pb-2 justify-between items-center">
           <CardTitle>My Assignments</CardTitle>
           <Activity className="h-4 w-4 text-muted-foreground" />
