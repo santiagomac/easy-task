@@ -1,5 +1,5 @@
 import {
-  Check,
+  CheckSquare,
   Clock,
   Home,
   Inbox,
@@ -25,7 +25,7 @@ export const mainGroup: MainGroupItem[] = [
     url: "/board",
   },
   {
-    icon: Check,
+    icon: CheckSquare,
     name: "My Task",
     url: "/my-task",
   },

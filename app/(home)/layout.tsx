@@ -12,7 +12,7 @@ export default function HomeLayout({
       <AppSidebar />
       <div className="w-full">
         <Navbar />
-        <div className="px-4 py-4">{children}</div>
+        <div className="p-6">{children}</div>
       </div>
     </SidebarProvider>
   );

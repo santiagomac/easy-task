@@ -33,6 +33,7 @@ const workspaces = [
 
 export const AppSidebar = () => {
   return (
+    //TODO: IMPROVE THE CODE REPETITION
     <Sidebar>
       <SidebarHeader>
         <div className="flex items-center justify-center">
