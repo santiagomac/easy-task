@@ -116,7 +116,17 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+html,
+body {
+  @apply h-full;
+}
+
+.preview-image {
+  transform: rotate(10deg);
 }
