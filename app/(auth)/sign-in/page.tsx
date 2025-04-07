@@ -10,7 +10,7 @@ export default function SignInPage() {
           height={1000}
           src="/login-preview.webp"
           alt="logo"
-          className="preview-image rounded-md overflow-hidden"
+          className="preview-image rounded-md overflow-hidden border border-gray-200/50 shadow-lg"
         />
       </div>
       <div className="flex w-2/3 justify-center items-center">
